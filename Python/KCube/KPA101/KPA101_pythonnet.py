@@ -83,7 +83,7 @@ def main():
                 kcube.SetOperatingMode(PositionAlignerStatus.OperatingModes.OpenLoop, False)
                 flag = False
             elif a == "3":
-                kcube.SetOperatingMode(PositionAlignerStatus.OperatingModes.CloseLoop, False)
+                kcube.SetOperatingMode(PositionAlignerStatus.OperatingModes.ClosedLoop, False)
                 flag = False
             else:
                 print("Invaild input")
